@@ -1,0 +1,54 @@
+
+
+body {
+	font-family: Source Sans Pro;
+}
+
+#outerDiv {
+	border: 20px solid #bdc3c7;
+	margin: 1.5% 22.5%;
+	padding: 5px 8px;
+}
+
+h2 {
+	color: #2c3e50;
+	font-weight: 700;
+	font-size: 2em;
+}
+
+.date {
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.firstParagraph {
+	border-left: 5px solid #bdc3c7;
+	padding-left: 3px;
+}
+
+.article {
+	margin: 10px;
+	/*border-bottom: 1px solid #bdc3c7;*/
+}
+
+hr {
+	/*color: #bdc3c7;*/
+	margin: 10px;
+	border-top: 1px solid #bdc3c7;
+
+}
+
+#linkLine {
+	text-align: center;
+	color: #2c3e50;
+}
+
+#link:hover {
+	color: #2c3e50 !important;
+	text-transform: uppercase;
+}
+
+#link:visited {
+	color: #bdc3c7;
+}
