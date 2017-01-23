@@ -1,0 +1,13 @@
+li {
+	border: 2px solid orange;
+}
+
+#cssVids {
+	background: black;
+	color: white;
+}
+
+.normal {
+	color: purple;
+	text-decoration: line-through;
+}
