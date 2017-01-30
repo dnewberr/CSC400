@@ -1,0 +1,53 @@
+#container {
+	width: 600px;
+    margin: 0 auto;
+}
+
+#floats {
+	background: #d41;
+}
+
+#floats #container {
+	background: white;
+	padding: 20px;
+}
+
+#puppy {
+	float: right;
+	margin: 0 0 10px 20px;
+}
+
+#box1 {
+	width: 200px;
+	height: 200px;
+	background: #d41;
+	float: right;
+}
+
+#mainCol {
+	float: left;
+	width: 350px;
+	background: #555;
+	color: white;
+}
+
+#sidebar {
+	float: right;
+	width: 210px;
+	background: #fc3;
+	/*padding-left: 30px;*/
+}
+
+.clearFix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#footer {
+	clear: both;
+}
+
+#paragraph1 {
+	clear: right;
+}
