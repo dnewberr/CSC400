@@ -1,0 +1,25 @@
+body {
+	padding: 70px 0px;
+}
+
+#project-carousel {
+	/*background: #000;*/
+	border: 3px solid red;
+}
+
+.carousel-inner {
+	text-align: center;
+}
+
+.carousel-inner .item {
+	padding: 0 50px;
+}
+
+.carousel-inner .item .carousel-caption {
+	margin: 10px 0;
+}
+
+#welcome-message {
+	border: 3px solid red;
+	margin-top: 10px;
+}
