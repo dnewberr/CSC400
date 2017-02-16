@@ -72,6 +72,10 @@ a:hover {
 	color: #0E5A5A;
 }
 
+/*center carousel images*/
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
 /* Palette color codes */
 /* Palette URL: http://paletton.com/#uid=23i0u0kiyrD8xJfdIw+mKnGqSiT */
 
