@@ -1,7 +1,7 @@
 body {
 	padding: 70px 0px;
 	background-color: black;
-	background-image: url(images/index_background.jpg);
+	background-image: url(images/index_background.png);
 
 	background-size: cover;
 	background-position: center;
@@ -28,8 +28,6 @@ body {
 }*/
 
 #profile {
-
-	padding-top: 5%;
 	display: block;
     margin: auto;
 	width: 25%;
