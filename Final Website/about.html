@@ -1,10 +1,10 @@
 <!doctype html>
 <html>
 <head>
-	<title>Home</title>
+	<title>About</title>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="about.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/about.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -23,7 +23,7 @@
 	            </button>
 	         </div>
 
-	         <div class="collapse navbar-collapse" id="bs-nav-demo">
+	         <div class="collapse navbar-collapse navbar-right" id="bs-nav-demo">
 	         	<ul class="nav navbar-nav">
 			        <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
 			        <li><a href="projects.html">Projects </a></li>
@@ -37,20 +37,79 @@
 	<div class="container">
 		<div class="about-me">
 			<div class="row">
-				<div class="col-xs-8 col-md-6">
+				<div class="col-xs-12 col-md-6">
 					<h1>About Me</h1>
-            		<h4>Cal Poly, San Luis Obispo <span id="date"> Sept 2012 - Mar 2017</span></h4>
-            		<span>Bachelor of Science, Computer Science | Minor in Mathematics</span>
+					<p>I'm 23 years old and reside in the San Francisco Bay area. I enjoy building mobile applications, and have recently taken an interest in full-stack web development. Apart from programming, I've been involved in music since I began playing the flute in fall of 2003. Since then, I've been involved in multiple bands and choirs, and have tried (and sometimes succeeded) to pick up a multitude of instruments including guitar, baritone, and tenor saxophone.</p>
+
+					<h3>Work Experience</h3>
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <!-- Work 1 -->
+                        <div class="panel">
+                            <div role="tab" id="heading1">
+                                <h4>
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                        Tenmarks, Amazon <span class="date"> Jun 2016 - Sep 2016</span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+                                <div class="panel-body">Software Developer Intern</div>
+                            </div>
+                        </div>
+
+                       <!-- Work 2 -->
+                        <div class="panel">
+                            <div role="tab" id="heading2">
+                                <h4>
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                        Prime Membership, Amazon SLO <span class="date"> Dec 2014 - Jun 2016</span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+                                <div class="panel-body">Jr. Sofware Developer</div>
+                            </div>
+                        </div>
+
+                        <!-- Work 3 -->
+                        <div class="panel">
+                            <div role="tab" id="heading3">
+                                <h4>
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                        Network Administration, Cal Poly <span class="date"> Apr 2014 - Nov 2014</span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                                <div class="panel-body">Student / Firewall Pinhole Assistant</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+					<!-- Education -->
+					<h3>Education</h3>
+                    <a class="collapsed" data-toggle="collapse" href="#collapse4">
+                        <h4 class="resume-item-title">Cal Poly, San Luis Obispo <span class="date"> Sep 2012 - Mar 2017</span></h4>
+                    </a>
+                    <div id="collapse4" class="collapse">
+                        <p>Bachelor of Science, Computer Science | Minor in Mathematics</p>
+                    </div>
                 </div>
-				<div class="col-xs-4 col-md-6">
-                    <img class="bio-image img-responsive" src="images/placeholder.png">
+				<div class="col-xs-0 col-md-6">
+                    <img class="bio-image img-responsive visible-md-block visible-lg-block" src="assets/images/about_me_smile.jpg">
+
+                    <a id="resume-btn" class="btn btn-primary btn-lg"
+                        href="assets/resume.pdf">Download My Resume</a>
                 </div>
 			</div>
 		</div>
   		<!-- <p>Alternative text - include a link <a href="resume.pdf">to the PDF!</a></p> -->
-		<div class="navbar navbar-fixed-bottom footer">
-			&copy; 2017 - Deborah Newberry
-		</div>
+	</div>
+
+	<div class="navbar navbar-fixed-bottom footer">
+		&copy; 2017 - Deborah Newberry | <a href="http://mband.calpoly.edu" "Cal Poly Mustang Band">Cal Poly Mustang Band</a> Photos by <a href="http://www.iansbillings.com/" "Ian Billings Photography">Ian Billings</a>
 	</div>
 </body>
 </html>
